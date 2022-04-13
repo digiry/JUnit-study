@@ -1,7 +1,8 @@
 package study;
 
 public class StringUtil {
-    public  String[] SplitByComma(String value) {
+
+    public String[] SplitByComma(String value) {
         String[] result = value.split(",");
         return result;
     }
